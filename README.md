@@ -6,6 +6,9 @@
 
 "Netflix"-app utviklet av meg og andre studenter ved ntnu i faget TDT4140 våren 2024. Følg instruksjonen under for oppsett. Jeg og teamet mitt jobbet med å utvikle et produkt ved å følge smidige metoder, spesielt Scrum. Faget var nøye utformet for å etterligne et ekte arbeidsmiljø, noe som ga oss verdifull erfaring med moderne utviklingsmetoder og samarbeidsteknikker.
 
+
+![image](https://github.com/user-attachments/assets/1e511f67-98d6-4f3b-81fc-167b1263d742)
+
 ## Installation
 
 1. Clone the repository using SSH or HTTPS
