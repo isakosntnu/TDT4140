@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.pageOverview {
+  background: #777;
+  position: relative;
+  display: block;
+  width: 800px;
+  height: 350px;
+  margin: 80px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+  box-shadow: 0px 0px 120px -25px rgba(0.00001, 0.00001, 0.00001, 0.5);
+  &:hover {
+    /* transform: scale(1.05); */
+    box-shadow: 0px 0px 80px -25px rgba(0.0001, 0.0001, 0.0001, 0.5);
+    transition: all 0.5s;
+  }
+  .movieInfo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+    .movieHeader {
+      position: relative;
+      padding: 26px;
+      height: 41%;
+      width: 50%;
+
+      .movieIMG {
+        position: relative;
+        float: left;
+        margin-right: 21px;
+        height: 119px;
+        box-shadow: 0 0 20px -10px rgba(0.001, 0.00001, 0.00001, 0.5);
+      }
+
+      .Ratings-Reviews {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .addMovie {
+          background-color: #409d69;
+          color: white;
+          margin: 10px;
+          width: 50%;
+          border-radius: 50px;
+        }
+
+        .removeMovie {
+          background-color: white;
+          color: #383838;
+          margin: 10px;
+          width: 50%;
+          border: 2px solid #383838;
+          border-radius: 50px;
+        }
+
+        .reviewScreen {
+          background: rgba(120, 120, 120, 0.3);
+          height: 100%;
+          width: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+
+          .writeReview {
+            background-color: white;
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+            justify-content: center;
+
+            box-shadow: 0 0 10px 0px rgba(0.001, 0.00001, 0.00001, 0.2);
+            border-radius: 20px;
+
+            .closeReview {
+              color: white;
+              background-color: #383838;
+              margin: 10px;
+              width: 50%;
+              border-radius: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .movieHeader {
+    width: 65%;
+  }
+
+  .movieInfo {
+    background: linear-gradient(to right, #e5e6e6 40%, transparent 70%);
+  }
+
+  .blur_back {
+    width: 50%;
+    background-position: -50% 50%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .movie_card {
+    width: 95%;
+    margin: 70px auto;
+    min-height: 350px;
+    height: auto;
+  }
+
+  .blur_back img {
+    object-fit: scale-down; /* Ensures the image covers the area without ratio distortion */
+    background-position: center; /* Center the background image */
+  }
+
+  .movieHeader {
+    width: 100%;
+    margin-top: 85px;
+  }
+
+  .movieInfo {
+    background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
+    display: inline-grid;
+  }
+}
+
+.ave_back {
+  background: local;
+  position: inherit;
+
+  width: auto;
+}

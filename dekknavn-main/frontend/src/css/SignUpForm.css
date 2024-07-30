@@ -1,0 +1,38 @@
+.signUpFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%; /* Ensure it spans the full width */
+  padding: 0 20px; /* This will prevent the children from touching the edges */
+  background: linear-gradient(to right, #6a5acd, #9a72ac);
+}
+
+.signUpFormContainer .textField {
+  color: white;
+  width: 75%;
+  max-width: 350px;
+}
+
+.signUpFormContainer .textField .MuiFilledInput-root {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: white;
+}
+
+.signUpFormContainer .MuiButton-contained {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.signUpFormContainer .submitButton {
+  margin-top: 3;
+  margin-bottom: 2;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  width: 75%;
+  max-width: 350px;
+}
+.signUpFormContainer .submitButton:hover {
+  background: rgba(255, 255, 255, 0.45);
+}

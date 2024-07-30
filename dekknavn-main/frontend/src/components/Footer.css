@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  min-height: 80px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.footer div:first-child {
+  margin-left: 20px; 
+}
+
+.footer div:last-child {
+  margin-right: 20px; 
+}
