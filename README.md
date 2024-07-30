@@ -4,7 +4,7 @@
 
 ## Description
 
-"Netflix"-app utviklet av meg og andre studenter ved ntnu i faget TDT4140 våren 2024. Følg instruksjonen under for oppsett
+"Netflix"-app utviklet av meg og andre studenter ved ntnu i faget TDT4140 våren 2024. Følg instruksjonen under for oppsett. Jeg og teamet mitt jobbet med å utvikle et produkt ved å følge smidige metoder, spesielt Scrum. Faget var nøye utformet for å etterligne et ekte arbeidsmiljø, noe som ga oss verdifull erfaring med moderne utviklingsmetoder og samarbeidsteknikker.
 
 ## Installation
 
