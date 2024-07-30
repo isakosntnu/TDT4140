@@ -1,0 +1,33 @@
+#Beskrivelse av det originale problemet til produkteier
+
+Det er et voksende antall filmer i verden og det er stadig vanskeligere å velge. Mange har svært ulike
+preferanser basert på blant annet: sjanger, skuespillere og regissør. I tillegg kan det være vanskelig å
+huske alle filmene man har sett før og hvilke man likte. Produkteier ønsker derfor å lage en tjeneste som
+skal gjøre det enkelt å ha oversikt over dette. I tillegg skal brukerne få anbefalinger av filmer som de er
+sannsynlige til å like. Kundegruppen er alle som er interessert I film.
+Tjenesten skal tilby en oversikt over filmer man har sett med muligheten til å legge inn vurdering og
+egne notater om filmen. Det skal også være tilgjengelig ekstra informasjon om filmenene som for
+eksempel: sjanger, tittel, lengde, direktør, med mulighet til å filtrer/sortere på denne informasjonen.
+Målet til produkteier er en brukervennlig tjeneste for å holde styr på filmer man har sett og få nye
+anbefalinger.
+
+
+Krav
+• Anbefaling av film basert på hva andre like brukere har sett
+• Brukere skal kunne lagre nye filmer de har sett og vurdere filmen.
+• Brukere skal kunne markere å ha sett serier / trilogier.
+• Brukerne skal få anbefalinger til filmer basert på profilen sin
+• Brukerne skal ha en brukerprofil med oversikt over filmene de har sett og deres egen vurdering
+av filmen.
+• Brukerne skal kunne filtrere/sortere filmer i brukerprofilen basert på sjanger og andre kriterier
+• Brukerne skal kunne markere filmer, sjangere, skuespillere og regissører som “favoritter”
+• Brukerne skal se bilder av filmene i brukerprofilen, slik at det er visuelt appellerende å bruke
+produktet.
+• Film-feed, får opp at noen har sett en film,browse forskjellige filmer og se streaming
+tilgjengelighet
+• Gi meg en tilfeldig film funksjon
+• Produktet må tilrettelegge for sponsede filmanbefalinger (fra annonsører)
+
+##Tillegg som ble lagt til underveis
+• Brukerne skal kunne se de værste filmene basert på lavest rangering brukere har gitt filmen
+• Brukerne skal få opp karusellvisning av filmer i samme sjanger
